@@ -2,8 +2,6 @@ import React, { Suspense, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
-import CanvasLoader from "../Loader";
-
 const MadaraModel = () => {
     const madaraGltf = useGLTF("./madara/scene.gltf");
 
@@ -11,6 +9,7 @@ const MadaraModel = () => {
         <primitive
             object={madaraGltf.scene}
             scale={[0.067, 0.067, 0.067]}
+            rotation={[0, -Math.PI / 2, 0]}
         />
     );
 };
