@@ -4,9 +4,9 @@ One of the highlights is the integration of Three.js, bringing 3D models to life
 
 In the fast-paced realm of web development, Vite.js ensures a swift and efficient development process, optimizing the performance for a seamless user experience. The use of Tailwind CSS adds a layer of stylistic finesse, allowing for a clean and responsive design across various devices.
 
-Stay connected with me on LinkedIn to be part of the ongoing narrative of innovation and technology. Let's explore the limitless possibilities of web development together! 💼🚀 LinkedIn
+Stay connected with me on LinkedIn to be part of the ongoing narrative of innovation and technology. Let's explore the limitless possibilities of web development together!💼🚀 <a href="#">LinkedIn</a>
 
-Additionally, drop me a line at your.email@gmail.com – your gateway to starting a conversation about how we can shape the future of the web! 📧✉️
+Additionally, drop me a line at k2patel4947@gmail.com – your gateway to starting a conversation about how we can shape the future of the web! 📧✉️
 
 Special thanks to JavaScript Mastery for being a guiding light throughout this exhilarating journey. Their expertise has played a crucial role in shaping this portfolio, making it a testament to continuous learning and collaborative knowledge-sharing. 🙌📚
 
