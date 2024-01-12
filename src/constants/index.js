@@ -13,13 +13,13 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
   eiser,
-  firstProject,
   moviefox,
   threejs,
-  think
+  think,
+  ai,
+  java,
+  python
 } from "../assets";
 
 export const navLinks = [
@@ -103,11 +103,11 @@ const technologies = [
   },
   {
     name: "java",
-    icon: figma,
+    icon: java,
   },
   {
     name: "python",
-    icon: docker,
+    icon: python,
   },
 ];
 
@@ -197,25 +197,25 @@ const projects = [
     source_code_link: "https://github.com/CaptainPatel/Moviefox",
   },
   {
-    name: "First Project",
+    name: "AI Summarizer",
     description:
-      "Embark on a visual journey with my inaugural website, a testament to simplicity and beauty. Meticulously designed using HTML and CSS, it offers an immersive experience. Navigate its elegance and discover a harmonious blend of aesthetics and functionality. 🌐✨",
+      "Dive into streamlined reading with my AI Summarizer site! 🚀 Built with React, Redux, and Tailwind CSS, it delivers quick article summaries. Just input the URL, and enjoy concise insights through a sleek, user-friendly interface. Experience content clarity effortlessly! 📚✨",
     tags: [
       {
-        name: "html",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "css",
+        name: "Redux",
         color: "green-text-gradient",
       },
       {
-        name: "web designing",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: firstProject,
-    source_code_link: "https://github.com/CaptainPatel/Moviefox",
+    image: ai,
+    source_code_link: "https://github.com/CaptainPatel/AI-Summarizer",
   },
 ];
 

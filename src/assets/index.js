@@ -9,8 +9,6 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/python.png";
-import figma from "./tech/java.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -21,15 +19,15 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import java from "./tech/java.png";
+import python from "./tech/python.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
 import think from "./company/think.png";
-import tesla from "./company/tesla.png";
 
 import eiser from "./eiser.png";
 import moviefox from "./moviefox.png";
 import firstProject from "./firstProject.png";
+import ai from "./aiSummarizer.png";
 
 export {
   logo,
@@ -41,8 +39,6 @@ export {
   menu,
   close,
   css,
-  docker,
-  figma,
   git,
   html,
   javascript,
@@ -53,12 +49,12 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  tesla,
   eiser,
   moviefox,
   firstProject,
   think,
-  favicon
+  favicon,
+  ai,
+  java,
+  python
 };
