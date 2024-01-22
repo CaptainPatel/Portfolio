@@ -27,7 +27,7 @@ const Hero = () => {
             </div>
           </button>
         </div>
-        <div id="madara" style={{ position: "relative", zIndex: 10, bottom: "6rem", left: "1rem" }} >
+        <div id="madara" className="hidden lg:block" style={{ position: "relative", zIndex: 10, bottom: "6rem", left: "1rem" }} >
           <Madara />
         </div>
       </div>
