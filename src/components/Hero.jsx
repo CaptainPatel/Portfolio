@@ -21,7 +21,7 @@ const Hero = () => {
           </p>
           <button className="flex justify-center w-75 mt-6">
             <div className="bg-indigo-600 text-white font-semibold hover:bg-indigo-500 rounded-lg p-3" onClick={() => {
-              window.open("https://drive.google.com/file/d/1-li1jFUvJ9bD9aFf3_xIAYH9D2XMyp3U/view?usp=drive_link");
+              window.open("https://drive.google.com/file/d/1ZqfE7Csn0Sx_jFhLH3JP7XuKjYlhNaVd/view?usp=drive_link");
             }}>
               Download My CV
             </div>
