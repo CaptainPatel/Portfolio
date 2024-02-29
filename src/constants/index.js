@@ -148,7 +148,7 @@ const testimonials = [
       "I do not fear this new challenge. Rather like a true warrior I will rise to meet it",
     name: "Lord Vegeta",
     designation: "Sensei",
-    company: "Captan",
+    company: "Captain",
     image: "https://i.pinimg.com/564x/70/e9/d1/70e9d19535e48baa84842cfef880da08.jpg",
   },
 ];
