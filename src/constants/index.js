@@ -14,12 +14,13 @@ import {
   mongodb,
   git,
   eiser,
-  moviefox,
   threejs,
   think,
   ai,
   java,
-  python
+  python,
+  lazykid,
+  darshan
 } from "../assets";
 
 export const navLinks = [
@@ -155,58 +156,37 @@ const testimonials = [
 
 const projects = [
   {
-    name: "MERN Stack eCommerce site",
+    name: "Lazy Kid",
     description:
-      "Developed a robust MERN stack eCommerce platform with secure user authentication, efficient product categorization, seamless payment integration, and a responsive UI. Achieved optimal scalability, performance, and security. The project demonstrates expertise in full-stack development, emphasizing a commitment to user-centric design and functionality.",
+    "The ultimate solution for students too busy studying to fetch snacks or print notes! 🚀 Order food or print documents on campus and let LazyKid handle the rest, delivering straight to your study spot. Because who has time for anything but acing exams? 📚🍔 #LazyButSmart",
     tags: [
       {
-        name: "react",
+        name: "PHP",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "MySQL",
         color: "green-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "HTML/CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: eiser,
-    source_code_link: "https://github.com/CaptainPatel/Eiser-Frontend",
+    image: lazykid,
+    source_code_link: "https://lazykid.in/",
   },
   {
-    name: "Movie Fox",
+    name: "Book My Darshan",
     description:
-      "Created an engaging movie site using React, Tailwind CSS, and various APIs to offer comprehensive information on a wide range of movies. The application seamlessly integrates with external APIs to fetch and display details such as movie summaries, ratings, cast, and trailers. The use of Tailwind CSS ensures a visually appealing and responsive user interface, enhancing the overall user experience.",
-    tags: [
-      {
-        name: "react",
+      "Introducing Book My Darshan: Your one-stop solution for hassle-free online booking of Ram Mandir tickets! 🕉️ Skip the queues, book your darshan slot with ease, and embark on a divine journey hassle-free. Created during a hackathon, because even spirituality deserves some tech-savvy convenience! 🌟 #DivineBooking",
+      tags: [
+        {
+          name: "MERN",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: moviefox,
-    source_code_link: "https://github.com/CaptainPatel/Moviefox",
-  },
-  {
-    name: "AI Summarizer",
-    description:
-      "Dive into streamlined reading with my AI Summarizer site! 🚀 Built with React, Redux, and Tailwind CSS, it delivers quick article summaries. Just input the URL, and enjoy concise insights through a sleek, user-friendly interface. Experience content clarity effortlessly! 📚✨",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Redux",
+        name: "Blockchain",
         color: "green-text-gradient",
       },
       {
@@ -214,9 +194,30 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: ai,
-    source_code_link: "https://github.com/CaptainPatel/AI-Summarizer",
+    image: darshan,
+    source_code_link: "https://github.com/CaptainPatel/BookMyDarshan",
   },
+  {
+    name: "Eiser",
+    description:
+      "An eCommerce platform with secure user authentication, efficient product categorization, seamless payment integration, and a responsive UI. Achieved optimal scalability, performance, and security.",
+    tags: [
+      {
+        name: "MERN",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MVC",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Material-UI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: eiser,
+    source_code_link: "https://github.com/CaptainPatel/Eiser-Frontend",
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };

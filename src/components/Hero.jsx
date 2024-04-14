@@ -12,9 +12,9 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-indigo-600'>Captain</span>
-          </h1>
+        <h1 className={`${styles.heroHeadText} text-white`}>
+      Hi, I'm <span className='text-indigo-600'>{"Captain"}</span>
+    </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I develop Full fledged MERN applications, <br className='sm:block hidden' />
             with robust features.

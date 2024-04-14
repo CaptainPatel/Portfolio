@@ -28,8 +28,12 @@ import eiser from "./eiser.png";
 import moviefox from "./moviefox.png";
 import firstProject from "./firstProject.png";
 import ai from "./aiSummarizer.png";
+import lazykid from "./LazyKid.png";
+import darshan from "./BookMyDarshan.png";
 
 export {
+  darshan,
+  lazykid,
   logo,
   backend,
   creator,
